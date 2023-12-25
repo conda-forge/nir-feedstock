@@ -1,5 +1,5 @@
 {% set name = "nir" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nir-{{ version }}.tar.gz
-  sha256: 6254d42d3c0ad6a629409ac8e3d15a061517c475759ea0094c627e818b1f68d0
+  sha256: 82dc90d8ee05ff25d87337a32f308ee07d19d648ede4c4596995f148b72df622
 
 build:
   noarch: python
